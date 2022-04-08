@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
+    <link rel="icon" type="imagem" href="./icons/despertador-digital.png" />
+    <title>Cronômetro</title>
+  </head>
+  <body>
+    <div class="crono">
+      <h1>CRONÔMETRO</h1>
+      <div class="tempo">
+        <span id="horas">00</span><span>:</span><span id="minutos">00</span
+        ><span>:</span><span id="segundos">00</span>
+      </div>
+      <br />
+
+      <button type="button" onclick="começar()">Começar</button>
+      <button type="button" onclick="parar()">Parar</button>
+      <button type="button" onclick="resetar()">Resetar</button>
+      <button type="button" onclick="salvar()">Salvar</button>
+      <button type="button" onclick="apagarTudo()">Apagar</button>
+      <ul id="temposLista"></ul>
+    </div>
+
+    <script src="./JavaScript/script.js"></script>
+  </body>
+</html>
